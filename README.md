@@ -21,3 +21,5 @@ This repository holds the POC experiments for mining the patent text.
 │... the same structure for the rest of the folders
 
 ```
+
+### make sure you install git lfs to handle large files. Instructions can be found [here](https://git-lfs.github.com/?utm_source=github_site&utm_medium=blog&utm_campaign=gitlfs)
