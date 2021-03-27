@@ -6,6 +6,7 @@ import spacy
 data = None
 raw_sentences = {}
 sentences = {}
+nlp = spacy.load("en_core_web_trf")
 
 with open("/Users/parvinderjit.singh/Desktop/Harvard/CSCI E-599/Patent_Visualization_Project/text-mining-poc/protein-sequences/test_data.json", "r") as read_file:
     data = json.load(read_file)
